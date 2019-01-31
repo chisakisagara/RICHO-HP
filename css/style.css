@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+a {
+    text-decoration:none;
+}
+a link {
+    color:#808080; 
+    text-decoration:none;
+}
+a visited {
+    color:#808080; 
+    text-decoration:none;
+}
+a hover { 
+    color:#808080; 
+    text-decoration:none;
+}
+a active {
+    color:#808080; 
+    text-decoration:none;
+}
+
+.menu{
+    background: url('../img/RICHO-main.jpg');
+    background-size: cover;
+    padding: 10px;
+    height: 850px;
+}
+.top{
+    display: block;
+    float: left;
+}
+.main-header{
+   text-shadow: 5px 5px 2px #808080;
+    font-size: 110px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header-feature{
+    float: right;
+    font-size: 44px;
+    margin-top: 0;
+}
+.header-gallery{
+    float: right;
+    font-size: 44px;
+    margin-top: 0;
+    margin-right: 40px;
+}
+.sub-header{
+    margin-top: -30px;
+    font-size: 44px;
+    text-align: center;
+}
+.main-description{
+    text-align: center;
+    text-shadow: 5px 5px 2px #808080;
+    margin-bottom: 0;
+    font-size: 100px;
+}
+.sub-description{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 44px;
+}
+.wrapper{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.box{
+    float: left;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 8px 5px 8px 8px;
+    padding: 50px;
+    background-color: #E6E4E4;
+    box-shadow: 10px 10px 15px -10px;
+}
+.box p{
+    text-align: center;
+}
+.bottun1{
+     display: inline-block;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background: #E6E4E4;
+    border-bottom: solid 4px #627295;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.bottun1-1{
+    text-align: center;
+   
+}
+.gallery-top{
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 5px 5px 2px #808080;
+}
+.slideshow{
+    overflow: hidden;
+    position: relative;
+    min-width: 960px;
+    height: 465px;
+}
+.slideshow img{
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+}
+.bottun2{
+     display: inline-block;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background: #E6E4E4;
+    border-bottom: solid 4px #627295;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.bottun2-1{
+    text-align: center;
+}
+.footer{
+    float: right
+}
+
+
+
+html { font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif; font-size: 14px; line-height: 1.5; }
+body { background-color: rgb(245, 245, 245); color: rgb(0, 0, 0); }
+h1 { font-size: 100%; margin: 0; }
+img { vertical-align: middle; }
+
+.page-header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 32px 0;
+    width: 100%;
+}
+.page-header > .inner {
+    width: 950px;
+    padding: 8px 10px;
+    margin: auto;
+}
+.site-logo {
+    line-height: 1;
+}
+.page-main {
+    margin: auto;
+    padding: 0 10px 100px;
+    width: 950px;
+}
+.gallery {
+    margin: 0;
+    padding: 0;
+}
+.gallery-item {
+    list-style: none;
+    margin-top: 10px;
+}
+.gallery-item.is-loading {
+    opacity: 0;
+}
+
+
+
+.section-1{
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    margin: 50px;
+}
+.section-2{
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    margin: 50px;
+}
+.section-3{
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    margin: 50px;
+}
